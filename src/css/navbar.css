@@ -1,0 +1,40 @@
+.Navbar.Container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #FFB6B9;
+    width: 100%;
+}
+.navbar-contain{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-logo{
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem;
+}
+.navbar-header{
+    margin: 2rem 0 0 30rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.nav-slide{
+    margin: 0;
+    overflow-x: hidden;
+}
+/* Text */
+.navbar-header p{
+    color: #fff;
+    font-size: 14px;
+}
+.navbar-header p:hover{
+    color: rgb(33, 73, 105);
+}
+/* Text */
+
+/* Link */
+.navbar-header a{
+    text-decoration: none;
+}
+/* Link */

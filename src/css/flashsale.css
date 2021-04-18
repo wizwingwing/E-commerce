@@ -14,3 +14,19 @@
     background-color: #8AC6D1;
     width: 80%;
 }
+/* Text */
+.flash-text p{
+    font-size: 2.5em;
+    border: 1px solid red;
+}
+.flash-text span{
+    font-size: 3.5em;
+    border: 1px solid red;
+}
+/* Text */
+
+/* Icon */
+.icon-flash{
+    display: flex;
+}
+/* Icon */

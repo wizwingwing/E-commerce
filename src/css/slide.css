@@ -36,7 +36,17 @@
       display: flex;
       justify-content: center;
       width: 90%;
-      height: 200px;
+      height: 400px;
+      object-fit: cover;
+    }
+  }
+
+  @media screen and (min-width:1201px){
+    .sliderimg{
+      margin: auto;
+      display: flex;
+      justify-content: center;
+      width: 90%;
       object-fit: cover;
     }
   }

@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     width: 100%;
+    height: 40rem;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
@@ -14,19 +15,84 @@
     background-color: #8AC6D1;
     width: 80%;
 }
+.flash-text{
+    margin: 14rem 75px;
+}
 /* Text */
 .flash-text p{
+    padding: 0 1rem;
     font-size: 2.5em;
-    border: 1px solid red;
 }
-.flash-text span{
+.icon-flash span{
+    margin-top: -14rem;
     font-size: 3.5em;
-    border: 1px solid red;
+    color: red;
 }
 /* Text */
 
 /* Icon */
 .icon-flash{
-    display: flex;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.icon-flash1{
+    margin-top: -13rem;
+}
+.icon-flash2{
+    margin-top: -16.5rem;
 }
 /* Icon */
+
+/* Responsive */
+@media screen and (max-width:375px){
+    .FlashSale-Container{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 20rem;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+    }
+    .flashsale-box-white{
+        width: 35%;
+    }
+    .flashsale-box-blue{
+        width: 65%;
+    }
+    .flash-text{
+        margin: 6.5rem 4px;
+    }
+    /* Text */
+    .flash-text p{
+        padding: 0 1rem;
+    }
+    .icon-flash span{
+        margin-top: -8rem;
+        font-size: 3em;
+    }
+    /* Text */
+    /* Icon */
+    .icon-flash{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    }
+    .icon-flash1{
+        margin-top: -5.5rem;
+    }
+    .icon-flash2{
+        margin-top: -7rem;
+    }
+    /* Icon */  
+}
+
+@media screen and (min-width: 376px) and (max-width: 768px){
+
+}
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+
+}

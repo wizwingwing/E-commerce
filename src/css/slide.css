@@ -19,3 +19,25 @@
 .alice-carousel__dots-item:not(.__custom).__active{
   background-color: #FAE3D9 !important;
 }
+
+@media screen and (max-width:375px){
+  .sliderimg{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 200px;
+    object-fit: cover;
+  }
+}
+  @media screen and (min-width: 376px) and (max-width: 768px) {
+    .sliderimg{
+      margin: auto;
+      display: flex;
+      justify-content: center;
+      width: 90%;
+      height: 200px;
+      object-fit: cover;
+    }
+  }
+

@@ -1,0 +1,16 @@
+.FlashSale-Container{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+.flashsale-box-white{
+    background-color: #fff;
+    width: 20%;
+}
+.flashsale-box-blue{
+    background-color: #8AC6D1;
+    width: 80%;
+}
